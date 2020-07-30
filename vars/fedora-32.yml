@@ -15,4 +15,4 @@
 # limitations under the License.
 
 _yum:
-  - { state: "latest", name: "firefox" }
+  - { state: "latest", name: "https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm" }
