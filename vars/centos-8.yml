@@ -14,5 +14,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+_rpm_key:
+  - key: "https://dl-ssl.google.com/linux/linux_signing_key.pub"
+    fingerprint: "4CCA1EAF950CEE4AB83976DCA040830F7FAC5991"
+    state: "present"
+
+_yum_repository:
+  - file: "chrome"
+    name: "chrome"
+    description: "Centos 8 - x86_64 - Chrome"
+    baseurl: "http://dl.google.com/linux/chrome/rpm/stable/x86_64"
+    enabled: true
+    gpgcheck: true
+    repo_gpgcheck: true
+    gpgkey: "https://dl-ssl.google.com/linux/linux_signing_key.pub"
+    state: "present"
+
 _yum:
-  - { state: "latest", name: "https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm" }
+  - { state: "latest", name: "google-chrome-stable" }
