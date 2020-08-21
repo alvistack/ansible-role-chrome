@@ -14,11 +14,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_rpm_key:
-  - key: "https://dl.google.com/linux/linux_signing_key.pub"
-    fingerprint: "4CCA1EAF950CEE4AB83976DCA040830F7FAC5991"
-    state: "present"
-
 _zypper_repository:
   - name: "google-chrome"
     repo: "http://dl.google.com/linux/chrome/rpm/stable/x86_64"
