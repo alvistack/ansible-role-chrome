@@ -1,9 +1,13 @@
 # Ansible Role for Google Chrome
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-chrome/master)](https://gitlab.com/alvistack/ansible-role-chrome/-/pipelines)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-chrome.svg)](https://github.com/alvistack/ansible-role-chrome/releases)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-chrome.svg)](https://github.com/alvistack/ansible-role-chrome/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.chrome-blue.svg)](https://galaxy.ansible.com/alvistack/chrome)
+[![Gitlab pipeline
+status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-chrome/master)](https://gitlab.com/alvistack/ansible-role-chrome/-/pipelines)
+[![GitHub
+release](https://img.shields.io/github/release/alvistack/ansible-role-chrome.svg)](https://github.com/alvistack/ansible-role-chrome/releases)
+[![GitHub
+license](https://img.shields.io/github/license/alvistack/ansible-role-chrome.svg)](https://github.com/alvistack/ansible-role-chrome/blob/master/LICENSE)
+[![Ansible
+Role](https://img.shields.io/badge/galaxy-alvistack.chrome-blue.svg)](https://galaxy.ansible.com/alvistack/chrome)
 
 Ansible Role for Google Chrome Installation.
 
@@ -39,7 +43,8 @@ This role could simply deploy to `localhost` as below:
 ## License
 
   - Code released under [Apache License 2.0](LICENSE)
-  - Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+  - Docs released under [CC
+    BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 ## Author Information
 
