@@ -14,9 +14,21 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_zypper_repository:
-  - name: "google-chrome"
-    repo: "http://dl.google.com/linux/chrome/rpm/stable/x86_64"
+_rpm_key:
+  - key: "http://dl.google.com/linux/linux_signing_key.pub"
+    fingerprint: "EB4C1BFD4F042F6DDDCCEC917721F63BD38B4796"
+    state: "present"
+
+_yum_repository:
+  - file: "google-chrome"
+    name: "google_chrome"
+    description: "google_chrome"
+    baseurl: "http://dl.google.com/linux/chrome/rpm/stable/x86_64"
+    enabled: true
+    priority: "2"
+    module_hotfixes: true
+    gpgcheck: true
+    gpgkey: "http://dl.google.com/linux/linux_signing_key.pub"
     state: "present"
 
 _zypper:
