@@ -1,5 +1,7 @@
 # Ansible Role for Google Chrome
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-chrome/master)](https://gitlab.com/alvistack/ansible-role-chrome/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-chrome.svg)](https://github.com/alvistack/ansible-role-chrome/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-chrome.svg)](https://github.com/alvistack/ansible-role-chrome/blob/master/LICENSE)
