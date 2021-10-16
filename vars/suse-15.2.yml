@@ -16,7 +16,7 @@
 
 _rpm_key:
   - key: "http://dl.google.com/linux/linux_signing_key.pub"
-    fingerprint: "EB4C1BFD4F042F6DDDCCEC917721F63BD38B4796"
+    fingerprint: "4CCA1EAF950CEE4AB83976DCA040830F7FAC5991"
     state: "present"
 
 _yum_repository:
