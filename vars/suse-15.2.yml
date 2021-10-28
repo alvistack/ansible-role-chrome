@@ -21,8 +21,8 @@ _rpm_key:
 
 _yum_repository:
   - file: "google-chrome"
-    name: "google_chrome"
-    description: "google_chrome"
+    name: "google-chrome"
+    description: "google-chrome"
     baseurl: "https://dl.google.com/linux/chrome/rpm/stable/x86_64"
     enabled: true
     priority: "2"
