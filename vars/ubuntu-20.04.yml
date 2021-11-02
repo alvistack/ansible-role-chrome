@@ -16,13 +16,13 @@
 
 _apt_key:
   - keyring: "/etc/apt/trusted.gpg.d/google-chrome.gpg"
-    url: "http://dl.google.com/linux/linux_signing_key.pub"
-    id: "4CCA1EAF950CEE4AB83976DCA040830F7FAC5991"
+    url: "https://dl.google.com/linux/linux_signing_key.pub"
+    id: "EB4C1BFD4F042F6DDDCCEC917721F63BD38B4796"
     state: "present"
 
 _apt_repository:
   - filename: "google-chrome"
-    repo: "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main"
+    repo: "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main"
     state: "present"
 
 _apt:
