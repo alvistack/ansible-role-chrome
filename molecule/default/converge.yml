@@ -20,5 +20,5 @@
   tasks:
     - name: include role
       ansible.builtin.include_role:
-        name: chrome
-      tags: chrome
+        name: alvistack.chrome
+      tags: alvistack.chrome
