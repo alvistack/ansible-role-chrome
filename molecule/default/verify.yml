@@ -20,6 +20,7 @@
   become: true
   tasks:
     - name: google-chrome --version
-      ansible.builtin.command: google-chrome --version
+      ansible.builtin.command:
+        cmd: google-chrome --version
       register: result
       changed_when: result is not succeeded
