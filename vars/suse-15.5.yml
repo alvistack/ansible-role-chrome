@@ -14,16 +14,22 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-_apt_key:
-  - keyring: "/etc/apt/trusted.gpg.d/google-chrome.gpg"
-    url: "https://dl.google.com/linux/linux_signing_key.pub"
-    id: "EB4C1BFD4F042F6DDDCCEC917721F63BD38B4796"
+_rpm_key:
+  - key: "https://dl.google.com/linux/linux_signing_key.pub"
+    fingerprint: "4CCA1EAF950CEE4AB83976DCA040830F7FAC5991"
     state: "present"
 
-_apt_repository:
-  - filename: "google-chrome"
-    repo: "deb [arch=amd64] https://dl.google.com/linux/chrome/deb/ stable main"
+_yum_repository:
+  - file: "google-chrome"
+    name: "google-chrome"
+    description: "google-chrome"
+    baseurl: "https://dl.google.com/linux/chrome/rpm/stable/x86_64"
+    enabled: true
+    priority: "2"
+    module_hotfixes: true
+    gpgcheck: true
+    gpgkey: "https://dl.google.com/linux/linux_signing_key.pub"
     state: "present"
 
-_apt:
+_zypper:
   - { state: "latest", name: "google-chrome-stable" }
