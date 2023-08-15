@@ -19,8 +19,8 @@
   remote_user: root
   become: true
   tasks:
-    - name: google-chrome --version
+    - name: flatpak info com.google.Chrome
       ansible.builtin.command:
-        cmd: google-chrome --version
+        cmd: flatpak info com.google.Chrome
       register: result
       changed_when: result is not succeeded
