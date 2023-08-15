@@ -13,23 +13,3 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-_rpm_key:
-  - key: "https://dl.google.com/linux/linux_signing_key.pub"
-    fingerprint: "4CCA1EAF950CEE4AB83976DCA040830F7FAC5991"
-    state: "present"
-
-_yum_repository:
-  - file: "google-chrome"
-    name: "google-chrome"
-    description: "google-chrome"
-    baseurl: "https://dl.google.com/linux/chrome/rpm/stable/x86_64"
-    enabled: true
-    priority: "2"
-    module_hotfixes: true
-    gpgcheck: true
-    gpgkey: "https://dl.google.com/linux/linux_signing_key.pub"
-    state: "present"
-
-_zypper:
-  - { state: "latest", name: "google-chrome-stable" }
