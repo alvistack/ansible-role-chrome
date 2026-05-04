@@ -1,13 +1,13 @@
-# Ansible Role for Google Chrome
+# Ansible Role for Google Chrome with Flatpak
 
 <a href="https://alvistack.com" title="AlviStack" target="_blank"><img src="/alvistack.svg" height="75" alt="AlviStack"></a>
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-chrome/master)](https://gitlab.com/alvistack/ansible-role-chrome/-/pipelines)
-[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-chrome.svg)](https://github.com/alvistack/ansible-role-chrome/tags)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-chrome.svg)](https://github.com/alvistack/ansible-role-chrome/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.chrome-blue.svg)](https://galaxy.ansible.com/alvistack/chrome)
+[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-flatpak_chrome/master)](https://gitlab.com/alvistack/ansible-role-flatpak_chrome/-/pipelines)
+[![GitHub tag](https://img.shields.io/github/tag/alvistack/ansible-role-flatpak_chrome.svg)](https://github.com/alvistack/ansible-role-flatpak_chrome/tags)
+[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-flatpak_chrome.svg)](https://github.com/alvistack/ansible-role-flatpak_chrome/blob/master/LICENSE)
+[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.flatpak_chrome-blue.svg)](https://galaxy.ansible.com/alvistack/flatpak_chrome)
 
-Ansible Role for Google Chrome Installation.
+Ansible Role for Google Chrome with Flatpak.
 
 ## Requirements
 
