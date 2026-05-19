@@ -1,4 +1,4 @@
-# Ansible Role for Google Chrome
+# Ansible Role for Google Chrome with Flatpak
 
 ## 13.6.0 - TBC
 
